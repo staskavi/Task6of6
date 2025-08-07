@@ -7,7 +7,6 @@ int main()
 	int counter_numbers = 0;
 	int counter_other = 0;
 	printf("Enter char (for exit enter #)...");
-	//ch = getchar();
 	scanf_s(" %c",&ch);
 
 	if (ch == 35)
@@ -31,7 +30,6 @@ int main()
 			counter_other++;
 		}
 		printf("Enter char (for exit enter #)... ");
-		//ch = getchar();
 		scanf_s(" %c", &ch);
 	}
 	printf("Number of small letters is %d\n Number of numbers is %d\n Number of other symbols is %d", counter_letters, counter_numbers, counter_other);
